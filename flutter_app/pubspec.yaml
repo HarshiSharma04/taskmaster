@@ -1,0 +1,55 @@
+name: taskmaster
+description: A beautiful task management application
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  flutter_riverpod: ^2.4.9
+  riverpod_annotation: ^2.3.3
+
+  # Secure Storage
+  flutter_secure_storage: ^9.0.0
+
+  # HTTP
+  dio: ^5.4.0
+
+  # Navigation
+  go_router: ^13.0.1
+
+  # UI
+  google_fonts: ^6.1.0
+  flutter_animate: ^4.5.0
+  shimmer: ^3.0.0
+  lottie: ^3.0.0
+  cached_network_image: ^3.3.1
+  fl_chart: ^0.66.2
+  flutter_slidable: ^3.0.1
+  intl: ^0.18.1
+  
+  # Utils
+  freezed_annotation: ^2.4.1
+  json_annotation: ^4.8.1
+  equatable: ^2.0.5
+  uuid: ^4.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.7
+  freezed: ^2.4.6
+  json_serializable: ^6.7.1
+  riverpod_generator: ^2.3.9
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/animations/
